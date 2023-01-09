@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Cormorant_reg;
+    src: url("../font/CormorantGaramond-Regular.ttf");
+}
+
+@font-face {
+    font-family: Cormorant_bold;
+    src: url("../font/CormorantGaramond-Bold.ttf");
+}
+
+@font-face {
+    font-family: Cormorant_italic;
+    src: url("../font/CormorantGaramond-Italic.ttf");
+}
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font_reg: Cormorant_reg;
+    --font_bold: Cormorant_bold;
+    --font_light: Cormorant_light;
+    --font_italic: Cormorant_italic;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: rgb(238, 235, 231);
+    margin: 1vh 3vw;
+    max-width: 1200px;
+}
+
+h1 {
+    font-weight: var(--font_bold);
+    text-align: center;
+    font-size: 3rem;
+    margin: 2vh auto;
+}
+
+h1 span {
+    font-size: 5rem;
+}
+
+.issueDateEdition-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: var(--font_reg);
+    font-size: 1.6rem;
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+    text-align: center;
+    padding: 5px 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: var(--font_bold);
+    font-size: 3.5rem;
+    margin: 2vh 0 2vh 0;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr / repeat(4, 1fr);
+    /* grid-template-rows: 15% 35% 50%; */
+    /* check? */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-right: 1.5vw;
+}
+
+article div {
+    padding: 0 1vw 2vh 0;
+}
+
+article h3 {
+    font-family: var(--font_reg);
+    font-size: 2.1rem;
+}
+
+article p {
+    font-family: var(--font_reg);
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+figure {
+    grid-area: 1 / 3 / 4 / span 2;
+    font-family: var(--font_italic);
+    font-size: 1.8rem;
+}
+
+figure img {
+    width: 100%;
+    /* why the size?? */
+} 
+
+h4 {
+    font-family: var(--font_bold);
+    font-size: 1.8rem;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.5vh 0 1.5vh 0;
+}
+
+aside p {
+    border: 5px double black;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+aside .first_add {
+    font-family: var(--font_bold);
+    font-size: 5.5rem;
+    line-height: 1.1;
+    padding: 1vh 0;
+}
+
+aside .second_add {
+    font-family: var(--font_reg);
+    font-size: 1.6rem;
+    padding: 1vh 1.3vw;
+}
+
+aside .second_add .add_title {
+    font-family: var(--font_bold);
+    font-size: 2.8rem;
+    display: block;
+}
+
+aside .second_add .add_last_line {
+    display: block;
+    margin: 1vh auto;
+    font-family: var(--font_italic);
+    color: gray;
+    font-size: 2.3rem;
+    line-height: 1;
+    width: 70%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1vh;
+}
+
+aside .ikea_add {
+    border: 5px double black;
+    padding: 1.3vh 1vw 1vh 1vw;
+}
+
+aside .ikea_add img {
+    width: 100%;
+}
+
+
