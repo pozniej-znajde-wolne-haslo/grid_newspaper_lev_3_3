@@ -32,19 +32,19 @@ html {
 body {
     font-size: 1.6rem;
     background-color: rgba(223, 219, 212, 0.797);
-    margin: 1vh 3vw;
-    width: 1400px;
+    margin: auto;
+    width: 1500px;
 }
 
 h1 {
     font-weight: var(--font_bold);
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 2vh auto;
 }
 
 h1 span {
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 .issueDateEdition-bar {
@@ -66,7 +66,7 @@ main {
 h2 {
     text-align: center;
     font-weight: var(--font_bold);
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     margin: 3vh 0 3vh 0;
 }
 
@@ -83,13 +83,13 @@ article div {
 
 article h3 {
     font-family: var(--font_reg);
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     margin-bottom: .5vh;
 }
 
 article p {
     font-family: var(--font_reg);
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     line-height: 1.2;
 }
 
@@ -106,9 +106,8 @@ article p {
 
 h4 {
     font-family: var(--font_bold);
-    font-size: 1.8rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 2vh 0 2vh 0;
 }
 
@@ -127,14 +126,14 @@ aside .first_add {
 
 aside .knives_add {
     font-family: var(--font_reg);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     padding: 1.5vh 1.3vw;
-    margin: vh 0 2vh 0;
+    margin: 1vh 0 2vh 0;
 }
 
 aside .knives_add .add_title {
     font-family: var(--font_bold);
-    font-size: 2.5rem;
+    font-size: 3.3rem;
     display: block;
 }
 
@@ -143,9 +142,9 @@ aside .knives_add .add_last_line {
     margin: 1vh auto;
     font-family: var(--font_italic);
     color: gray;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1;
-    width: 40%;
+    width: 50%;
     border-bottom: 1px solid rgba(128, 128, 128, 0.761);
     padding-bottom: 1vh;
 }
